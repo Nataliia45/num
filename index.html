@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./index.js"></script>
+</head>
+<body>
+    <h2>Простий калькулятор</h2>
+
+  <label for="operator">Оберіть операцію:</label>
+  <select id="operator">
+    <option value="+">Додавання</option>
+    <option value="-">Віднімання</option>
+    <option value="*">Множення</option>
+    <option value="/">Ділення</option>
+  </select>
+
+  <br>
+
+  <label for="num1">Введіть перше число:</label>
+  <input type="text" id="num1">
+
+  <br>
+
+  <label for="num2">Введіть друге число:</label>
+  <input type="text" id="num2">
+
+  <br>
+
+  <button onclick="calculate()">Обчислити</button>
+
+  <div id="result"></div>
+
+</body>
+</html>
